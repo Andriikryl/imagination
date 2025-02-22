@@ -9,9 +9,8 @@ export default function SortingVisualizer() {
   const [sorting, setSorting] = useState(false);
   const [activeIndices, setActiveIndices] = useState<number[]>([]);
 
-  // Reset the array to a new random state
   const resetArray = () => {
-    setArray(initialArray.map(n => n)); // Or generate a new array
+    setArray(initialArray.map(n => n)); 
   };
 
   const startSorting = async (reverse: boolean = false) => {

@@ -33,6 +33,26 @@ const data = {
       ],
     },
     {
+      title: "Basic",
+      url: "#",
+      items: [
+        {
+          title: "Counter",
+          url: "/counter",
+        },
+      ],
+    },
+    {
+      title: "Art",
+      url: "#",
+      items: [
+        {
+          title: "Canvas",
+          url: "/canvas",
+        },
+      ],
+    },
+    {
       title: "Building Your Application",
       url: "#",
       items: [
